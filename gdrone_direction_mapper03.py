@@ -2,26 +2,31 @@
 
 # Ruta del archivo de imagen / Path to the image file
 # Puede ser JPG, PNG, DNG / Supported formats: JPG, PNG, DNG
+# Puede usarse directorio, "/XXXX/YYYY/xxxx.jpg" / Directories can be used, "/XXXX/YYYY/xxxx.jpg"
 jpg_path = "xxxx.jpg"
 
 # ¿El gimbal rota horizontalmente (yaw)? / Does the gimbal rotate horizontally (yaw)?
+# Verificar con el manual del drone / Verifiy with drone user manual
 # True = Sí / Yes, False = No
 gimbal_rotates_yaw = False
 
 # ¿El gimbal rota verticalmente (pitch)? / Does the gimbal rotate vertically (pitch)?
+# Verificar con el manual del drone / Verifiy with drone user manual
 # True = Sí / Yes, False = No
 gimbal_rotates_pitch = True
 
-# Largo de línea / Line length
+# Largo de línea de dirección / Heading line length
 # Valor numérico / Numeric value
 distance_value = 60
 
-# Unidad de distancia: "m" para metros, "km" para kilómetros / Distance unit: "m" for meters, "km" for kilometers
+# Unidad de longtiud: "m" para metros, "km" para kilómetros / Longitude unit: "m" for meters, "km" for kilometers
 distance_unit = "km"
 
 # Punto de referencia manual (opcional) / Manual reference point (optional)
 # Coordenadas del objetivo / Target coordinates
 # Si no se desea usar objetivo, dejar en None / If not using target, set to None
+#
+# Números sin comillas / Numbers without quotes
 #
 # Ejemplo: manual_lat = -34.4711   # Colonia del Sacramento (Uruguay)
 # Ejemplo: manual_lon = -57.8440
@@ -33,6 +38,8 @@ manual_lat = None
 manual_lon = None
 
 # ¿Usar nombre de archivo personalizado? / Use custom output filename?
+# Standard (False): mapa_drone.html
+# Custom (True): <IMAGEFILENAME>.html
 use_custom_filename = False
 
 # No es neceesario configurar esto / No neeed to configure this setting
@@ -40,8 +47,7 @@ use_custom_filename = False
 output_html = "mapa_" + jpg_path.split("/")[-1].split(".")[0] + ".html" if use_custom_filename else "mapa_drone.html"
 
 
-# FIN de configuración / END of configuration
-
+# FIN de configuración de usuario / END of user configuration
 
 # === IMPORTAR LIBRERÍAS / IMPORT LIBRARIES ===
 import subprocess
@@ -176,3 +182,4 @@ try:
     print(f"✅ Mapa generado correctamente: {output_html} / Map successfully generated: {output_html}")
 except Exception as e:
     print(f"❌ Error al guardar el mapa / Failed to save map: {e}")
+
