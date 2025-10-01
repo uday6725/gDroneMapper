@@ -1,11 +1,11 @@
-🇦🇷 Mapa de Dirección del Drone (opcional con punto manual de referencia)
-Version 0.3
+🇦🇷 Mapa de Dirección del Drone (opcional con punto manual de referencia)<br>
+Version 0.3 - Versión MS Windows
 
-¿Qué hace?
-📍 Extrae la ubicación y orientación del drone desde una imagen aérea (JPG, PNG o DNG) usando ExifTool
-📏 Dibuja una línea de dirección desde el drone hacia donde apunta, con longitud configurable
-🎯 Opcionalmente compara con un objetivo manual (como Colonia del Sacramento) y calcula distancia y ángulo
-🗺️ Genera un mapa interactivo HTML con capas globales (calles, claro, oscuro, satélite alternativa)
+¿Qué hace?<br>
+📍 Extrae la ubicación y orientación del drone desde una imagen aérea (JPG, PNG o DNG) usando ExifTool<br>
+📏 Dibuja una línea de dirección desde el drone hacia donde apunta, con longitud configurable<br>
+🎯 Opcionalmente compara con un objetivo manual (como Colonia del Sacramento) y calcula distancia y ángulo<br>
+🗺️ Genera un mapa interactivo HTML con capas globales (calles, claro, oscuro, satélite alternativa)<br>
 🌀 Archivo de salida de nombre configurable
 
 > Testeado con DJI Air 3S, debería ser compatible con todos los DJI y otras marcas que utilicen el perfil estarandizado XPM en las imágenes.
@@ -35,22 +35,22 @@ Version 0.3
 
 ----
 
-🇺🇸 Drone Heading Mapper (with optional reference point)
-Version 0.3
+🇺🇸 Drone Heading Mapper (with optional reference point)<br>
+Version 0.3 - MS Windows version
 
-What does it do?
-📍 Extracts drone location and heading from aerial image metadata
-📏 Draws a heading line from the drone with customizable length
-🎯 Optionally compares with a manual target and calculates distance and angle
-🗺️ Generates an interactive HTML map with global layers
+What does it do?<br>
+📍 Extracts drone location and heading from aerial image metadata<br>
+📏 Draws a heading line from the drone with customizable length<br>
+🎯 Optionally compares with a manual target and calculates distance and angle<br>
+🗺️ Generates an interactive HTML map with global layers<br>
 🌀 Custom file name output
 
 > Tested with a DJI Air 3S, it should be compatible with all DJI models and other brands that use standarized XPM profiles in their images.
 
 🖥️ What do I need?
 - File with the code (gdrone_direction_mapper.py)
-- Python: https://www.python.org/downloads
-- Folium in Python (Windows command line: run pip install folium)
+- Python (https://www.python.org/downloads)
+- Folium in Python (Run Windows command line: "pip install folium")
 - ExifTool: https://exiftool.org — choose Windows 64-bit only, place it in the same folder where you'll save the code file (see below), and rename exiftool(-K).exe to exiftool.exe
 
 
