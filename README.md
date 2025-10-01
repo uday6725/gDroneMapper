@@ -10,7 +10,7 @@ Version 0.3
 
 > Esta versión procesa un archivo por vez.
 
-> Testeado con DJI Air 3S, debería ser compatible con todos los DJI y otras marcas que utilicen el perfil estarandizado XPM en las imágenes.
+> Testeado con JPGs y DNGs capturados por un DJI Air 3S, debería ser compatible con todos los DJI y otras marcas que utilicen el perfil estarandizado XPM en las imágenes.
 
 🖥️ ¿Qué necesito?
 - El archivo con el código (gdrone_direction_mapperXX.py)
@@ -38,6 +38,9 @@ Version 0.3
 - Colocá las imágenes en el mismo directorio que "gdrone_direction_mapperXX.py" y el ExifTool.exe y el directorio "/exiftool_files"/ 
 - Ejectuar "python gdrone_direction_mapperXX.py" desde la línea de comandos o doble click desde el Explorador de Windows
 - El código responderá con el resultado.
+
+> De encontrar errores, avisar, por favor.
+> Futuras versiones inclurán mejoras.
 
 ----
 
@@ -82,3 +85,6 @@ What does it do?<br>
 - Place the image(s) in the same folder as "gdrone_direction_mapperXX.py", ExifTool.exe and "/exiftool_files"/ directory
 - Run "python "gdrone_direction_mapperXX.py" from the command line or double-click it from Windows File Explorer
 - The code will respond with the result
+
+> If you find a bug, please, let me know.
+> Future versions will improve the process.
