@@ -8,6 +8,8 @@ Version 0.3 - Versión MS Windows
 🗺️ Genera un mapa interactivo HTML con capas globales (calles, claro, oscuro, satélite alternativa)<br>
 🌀 Archivo de salida de nombre configurable
 
+> Esta versión procesa un archivo por vez.
+
 > Testeado con DJI Air 3S, debería ser compatible con todos los DJI y otras marcas que utilicen el perfil estarandizado XPM en las imágenes.
 
 🖥️ ¿Qué necesito?
@@ -44,6 +46,8 @@ What does it do?<br>
 🎯 Optionally compares with a manual target and calculates distance and angle<br>
 🗺️ Generates an interactive HTML map with global layers<br>
 🌀 Custom file name output
+
+> This version processes one file at a time.
 
 > Tested with a DJI Air 3S, it should be compatible with all DJI models and other brands that use standarized XPM profiles in their images.
 
