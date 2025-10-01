@@ -28,7 +28,7 @@ Version 0.3 - Versión MS Windows
 
 👨‍💻 Código
 - Descargá gdrone_direction_mapper.py
-- Recordá editar "drone_view.py" para ajustarlo a tus preferencias e indicar el nombre de la fotografía a evaluar.
+- Recordá editar "gdrone_direction_mapper.py" para ajustarlo a tus preferencias e indicar el nombre de la fotografía a evaluar.
 - Colocá las imágenes en el mismo directorio que "gdrone_direction_mapper.py" y el ExifTool.exe
 - Ejectuar "python gdrone_direction_mapper.py" desde la línea de comandos o doble click desde el Explorador de Windows
 - El código responderá con el resultado.
