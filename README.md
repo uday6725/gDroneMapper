@@ -56,7 +56,7 @@ What does it do?<br>
 
 > This version processes one file at a time.
 
-> Tested with a DJI Air 3S, it should be compatible with all DJI models and other brands that use standarized XPM profiles in their images.
+> Tested with JPGs and DNGs captured by a DJI Air 3S, it should be compatible with all DJI models and other brands that use standarized XPM profiles in their images.
 
 🖥️ What do I need?
 - File with the code (gdrone_direction_mapperXX.py)
