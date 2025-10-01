@@ -1,5 +1,5 @@
 🇦🇷 Mapa de Dirección del Drone (opcional con punto manual de referencia)<br>
-Version 0.3 - Versión MS Windows
+Version 0.3
 
 ¿Qué hace?<br>
 📍 Extrae la ubicación y orientación del drone desde una imagen aérea (JPG, PNG o DNG) usando ExifTool<br>
@@ -15,7 +15,7 @@ Version 0.3 - Versión MS Windows
 🖥️ ¿Qué necesito?
 - El archivo con el código (gdrone_direction_mapperXX.py)
 - Python (https://www.python.org/downloads) + Folium para Phyton (línea de comandos en Windows, ejecutar: "pip install folium")
-- Descargar ExifTool (https://exiftool.org/), el que dice Windows 32 o 64-bit.
+- Descargar ExifTool (https://exiftool.org/), el que dice Windows 32 o 64-bit -o el SO que estés usando, debería de funcionar en todos)
 - Descomprimir "exiftool(-k).exe" y el directorio "/exiftool_files"/ en el mismo directorio que colocaremos "gdrone_direction_mapperXX.py" y las imágenes a evaluar.
 - Renombrar "exiftool(-K).exe" a "exiftool.exe"
 
@@ -42,7 +42,7 @@ Version 0.3 - Versión MS Windows
 ----
 
 🇺🇸 Drone Heading Mapper (with optional reference point)<br>
-Version 0.3 - MS Windows version
+Version 0.3
 
 What does it do?<br>
 📍 Extracts drone location and heading from aerial image metadata<br>
@@ -59,7 +59,7 @@ What does it do?<br>
 - File with the code (gdrone_direction_mapperXX.py)
 - Python (https://www.python.org/downloads)
 - Folium in Python (Run Windows command line: "pip install folium")
-- ExifTool: https://exiftool.org — Windows 32 or 64-bit.
+- ExifTool: https://exiftool.org — Windows 32 or 64-bit -or any OS you're using, it should work everywhere-
 - Decompress "exiftool(-K).exe" and "/exiftool_files"/ to the same folder where you saved "gdrone_direction_mapperXX.py" and pictures will be placed for evaluation.
 - Rename "exiftool(-K).exe" to "exiftool.exe"
 
