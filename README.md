@@ -15,7 +15,9 @@ Version 0.3 - Versión MS Windows
 🖥️ ¿Qué necesito?
 - El archivo con el código (gdrone_direction_mapperXX.py)
 - Python (https://www.python.org/downloads) + Folium para Phyton (línea de comandos en Windows, ejecutar: "pip install folium")
-- ExifTool (https://exiftool.org/), únicamente el que dice Windows 64-bit, colocar en el mismo directorio que colocaremos el archivo del código (ver debajo), renombrando exiftool(-K).exe a exiftool.exe
+- Descargar ExifTool (https://exiftool.org/), el que dice Windows 32 o 64-bit.
+- Descomprimir "exiftool(-k).exe" y el directorio "/exiftool_files"/ en el mismo directorio que colocaremos "gdrone_direction_mapperXX.py" y las imágenes a evaluar.
+- Renombrar "exiftool(-K).exe" a "exiftool.exe"
 
  > El XX en "gdrone_direction_mapperXX.py" corresponde a la última versión disponible.  Las versiones anteriores se van eliminando.
 
@@ -33,7 +35,7 @@ Version 0.3 - Versión MS Windows
 👨‍💻 Código
 - Descargá gdrone_direction_mapperXX.py
 - Recordá editar "gdrone_direction_mapperXX.py" para ajustarlo a tus preferencias e indicar el nombre de la fotografía a evaluar.
-- Colocá las imágenes en el mismo directorio que "gdrone_direction_mapperXX.py" y el ExifTool.exe
+- Colocá las imágenes en el mismo directorio que "gdrone_direction_mapperXX.py" y el ExifTool.exe y el directorio "/exiftool_files"/ 
 - Ejectuar "python gdrone_direction_mapperXX.py" desde la línea de comandos o doble click desde el Explorador de Windows
 - El código responderá con el resultado.
 
@@ -57,7 +59,9 @@ What does it do?<br>
 - File with the code (gdrone_direction_mapperXX.py)
 - Python (https://www.python.org/downloads)
 - Folium in Python (Run Windows command line: "pip install folium")
-- ExifTool: https://exiftool.org — choose Windows 64-bit only, place it in the same folder where you'll save the code file (see below), and rename exiftool(-K).exe to exiftool.exe
+- ExifTool: https://exiftool.org — Windows 32 or 64-bit.
+- Decompress "exiftool(-K).exe" and "/exiftool_files"/ to the same folder where you saved "gdrone_direction_mapperXX.py" and pictures will be placed for evaluation.
+- Rename "exiftool(-K).exe" to "exiftool.exe"
 
 > The XX in "gdrone_direction_mapperXX.py" corresponds to the latest available version for downloading.  Older versions are deleted.
 
@@ -75,6 +79,6 @@ What does it do?<br>
 👨‍💻 Code
 - Download gdrone_direction_mapper.py
 - Edit "gdrone_direction_mapperXX.py" to adjust preferences and specify the name of the photo to analyze
-- Place the image(s) in the same folder as "gdrone_direction_mapperXX.py" and ExifTool.exe
+- Place the image(s) in the same folder as "gdrone_direction_mapperXX.py", ExifTool.exe and "/exiftool_files"/ directory
 - Run "python "gdrone_direction_mapperXX.py" from the command line or double-click it from Windows File Explorer
 - The code will respond with the result
