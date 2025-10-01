@@ -13,9 +13,11 @@ Version 0.3 - Versión MS Windows
 > Testeado con DJI Air 3S, debería ser compatible con todos los DJI y otras marcas que utilicen el perfil estarandizado XPM en las imágenes.
 
 🖥️ ¿Qué necesito?
-- El archivo con el código (gdrone_direction_mapper.py)
+- El archivo con el código (gdrone_direction_mapperXX.py)
 - Python (https://www.python.org/downloads) + Folium para Phyton (línea de comandos en Windows, ejecutar: "pip install folium")
 - ExifTool (https://exiftool.org/), únicamente el que dice Windows 64-bit, colocar en el mismo directorio que colocaremos el archivo del código (ver debajo), renombrando exiftool(-K).exe a exiftool.exe
+
+ > El XX en "gdrone_direction_mapperXX.py" corresponde a la última versión disponible.  Las versiones anteriores se van eliminando.
 
 ⚠️ ¿Qué elementos son de configuración OBLIGATORIA?
 - jpg_path: ruta del archivo de imagen con metadatos GPS
@@ -29,10 +31,10 @@ Version 0.3 - Versión MS Windows
 - use_custom_filename: si se desea que el archivo HTML se nombre automáticamente según la imagen (True o False)
 
 👨‍💻 Código
-- Descargá gdrone_direction_mapper.py
-- Recordá editar "gdrone_direction_mapper.py" para ajustarlo a tus preferencias e indicar el nombre de la fotografía a evaluar.
-- Colocá las imágenes en el mismo directorio que "gdrone_direction_mapper.py" y el ExifTool.exe
-- Ejectuar "python gdrone_direction_mapper.py" desde la línea de comandos o doble click desde el Explorador de Windows
+- Descargá gdrone_direction_mapperXX.py
+- Recordá editar "gdrone_direction_mapperXX.py" para ajustarlo a tus preferencias e indicar el nombre de la fotografía a evaluar.
+- Colocá las imágenes en el mismo directorio que "gdrone_direction_mapperXX.py" y el ExifTool.exe
+- Ejectuar "python gdrone_direction_mapperXX.py" desde la línea de comandos o doble click desde el Explorador de Windows
 - El código responderá con el resultado.
 
 ----
@@ -52,11 +54,12 @@ What does it do?<br>
 > Tested with a DJI Air 3S, it should be compatible with all DJI models and other brands that use standarized XPM profiles in their images.
 
 🖥️ What do I need?
-- File with the code (gdrone_direction_mapper.py)
+- File with the code (gdrone_direction_mapperXX.py)
 - Python (https://www.python.org/downloads)
 - Folium in Python (Run Windows command line: "pip install folium")
 - ExifTool: https://exiftool.org — choose Windows 64-bit only, place it in the same folder where you'll save the code file (see below), and rename exiftool(-K).exe to exiftool.exe
 
+> The XX in "gdrone_direction_mapperXX.py" corresponds to the latest available version for downloading.  Older versions are deleted.
 
 ⚠️ What are the MANDATORY configuration parameters?
 - jpg_path: Path to the image file with GPS metadata
@@ -71,7 +74,7 @@ What does it do?<br>
 
 👨‍💻 Code
 - Download gdrone_direction_mapper.py
-- Edit "gdrone_direction_mapper.py" to adjust preferences and specify the name of the photo to analyze
-- Place the image(s) in the same folder as "gdrone_direction_mapper.py" and ExifTool.exe
-- Run "python drone_view.py" from the command line or double-click it from Windows File Explorer
+- Edit "gdrone_direction_mapperXX.py" to adjust preferences and specify the name of the photo to analyze
+- Place the image(s) in the same folder as "gdrone_direction_mapperXX.py" and ExifTool.exe
+- Run "python "gdrone_direction_mapperXX.py" from the command line or double-click it from Windows File Explorer
 - The code will respond with the result
