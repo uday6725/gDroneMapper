@@ -4,7 +4,7 @@ Version 0.3
 ¿Qué hace?<br>
 📍 Extrae la ubicación y orientación del drone desde una imagen aérea (JPG, PNG o DNG) usando ExifTool<br>
 📏 Dibuja una línea de dirección desde el drone hacia donde apunta, con longitud configurable<br>
-🎯 Opcionalmente compara con un objetivo manual (como Colonia del Sacramento) y calcula distancia y ángulo<br>
+🎯 Opcionalmente compara con un objetivo manual y calcula distancia y ángulo<br>
 🗺️ Genera un mapa interactivo HTML con capas globales (calles, claro, oscuro, satélite alternativa)<br>
 🌀 Archivo de salida de nombre configurable
 
