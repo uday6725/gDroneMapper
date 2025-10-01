@@ -6,7 +6,7 @@ Version 0.3
 📏 Dibuja una línea de dirección desde el drone hacia donde apunta, con longitud configurable<br>
 🎯 Opcionalmente compara con un objetivo manual y calcula distancia y ángulo<br>
 🗺️ Genera un mapa interactivo HTML con capas globales (calles, claro, oscuro, satélite alternativa)<br>
-🌀 Archivo de salida de nombre configurable
+🌀 Archivo de salida con nombre estandar o personalizado
 
 > Esta versión procesa un archivo por vez.
 
@@ -64,7 +64,7 @@ Version 0.3
 📏 Draws a heading line from the drone with customizable length<br>
 🎯 Optionally compares with a manual target and calculates distance and angle<br>
 🗺️ Generates an interactive HTML map with global layers<br>
-🌀 Custom file name output
+🌀 Standard or custom file name output
 
 > This version processes one file at a time.
 
