@@ -107,7 +107,7 @@ Version 0.3
 - Extra informative overlays on HTML the map
 - Extra waypoints to add
 - Multiple concatenated waypoints view on single HTML mal and/or static map image
-- Simplified the execution process
+- Simplify the script execution process
 - Multiple output: HTML map and/or static map image in custom or pre-set directory with custom or pre-set file names
 - ExifTool embedded or incorporated
 
