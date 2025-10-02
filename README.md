@@ -8,6 +8,9 @@ Version 0.3
 🗺️ Genera un mapa interactivo HTML con capas globales (calles, claro, oscuro, satélite alternativa)<br>
 🌀 Archivo de salida con nombre estandar o personalizado
 
+Ejemplo en vivo: https://gershu.ar/playground/gdrone_direction_mapper03.html
+Muestra: DNG (DJI Air 3S).  Punto de referencia manual (línea azul): Plaza de Mayo, Buenos Aires, Argentina.  Línea roja: dirección del drone al momento de capturar la fotografía.
+
 > Esta versión procesa un archivo por vez.
 
 > Testeado con JPGs y DNGs capturados por un DJI Air 3S, debería ser compatible con todos los DJI y otras marcas que utilicen el perfil estarandizado XPM en las imágenes.
@@ -65,6 +68,9 @@ Version 0.3
 🎯 Optionally compares with a manual target and calculates distance and angle<br>
 🗺️ Generates an interactive HTML map with global layers<br>
 🌀 Standard or custom file name output
+
+Live example: https://gershu.ar/playground/gdrone_direction_mapper03.html
+Sample: DNG (DJI Air 3S).  Manual checkpoint (blue line): Plaza de Mayo, Buenos Aires, Argentina.  Red line: heading the drone was on the moment it took the picture.
 
 > This version processes one file at a time.
 
