@@ -1,6 +1,8 @@
 ## 🇦🇷 Mapa de Dirección del Drone (opcional con punto manual de referencia)<br>
 Version 0.3
 
+> Adelanto versión 1.0 Beta: https://github.com/gershu-ar/GershuDroneHeadingMapper/blob/main/Sneak%20peek%20-%201.0%20Beta.jpg
+
 ### ¿Qué hace?<br>
 📍 Extrae la ubicación y orientación del drone desde una imagen aérea (JPG, PNG o DNG) usando ExifTool<br>
 📏 Dibuja una línea de dirección desde el drone hacia donde apunta, con longitud configurable<br>
@@ -45,6 +47,7 @@ Muestra: DNG (DJI Air 3S).  Punto de referencia manual (línea azul): Plaza de M
 > De encontrar errores, avisar, por favor.<br><br>
 
 **Futuras versiones inclurán mejoras, algunas planeadas:**
+
 - Chequeo previo de software instalado
 - Procesamiento por lotes de varios archivos a la vez por directorio
 - Gráfica adicional informativa sobre el mapa HTML
@@ -61,6 +64,8 @@ Coded con ❤️ en 🇦🇷 Argentina
 
 ## 🇺🇸 Drone Heading Mapper (with optional reference point)<br>
 Version 0.3
+
+> Sneak peek at 1.0 Beta: https://github.com/gershu-ar/GershuDroneHeadingMapper/blob/main/Sneak%20peek%20-%201.0%20Beta.jpg
 
 ### What does it do?<br>
 📍 Extracts drone location and heading from aerial image metadata<br>
