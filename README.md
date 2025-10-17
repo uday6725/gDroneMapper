@@ -1,4 +1,4 @@
-## 🇦🇷 Mapeador Fotográfico para Drones (opcional con punto manual de referencia)<br>
+## 🇦🇷 Mapeador Fotográfico para Drones<br>
 Version 0.3
 
 > Adelanto versión 1.0 Gamma (17/oct): https://github.com/gershu-ar/gDroneMapper/blob/main/Peek%20-%20gDroneMapper_1_0_Gamma.jpg
@@ -62,7 +62,7 @@ Coded con ❤️ en 🇦🇷 Argentina
 
 ----
 
-## 🇺🇸 Drone Photography Mapper (with optional reference point)<br>
+## 🇺🇸 Drone Photography Mapper<br>
 Version 0.3
 
 > Peek at 1.0 Gamme (17/oct): https://github.com/gershu-ar/gDroneMapper/blob/main/Peek%20-%20gDroneMapper_1_0_Gamma.jpg
