@@ -1,7 +1,7 @@
 ## 🇦🇷 Mapa de Dirección del Drone (opcional con punto manual de referencia)<br>
 Version 0.3
 
-> Adelanto versión 1.0 Beta: https://github.com/gershu-ar/GershuDroneHeadingMapper/blob/main/Sneak%20peek%20-%201.0%20Beta.jpg
+> Adelanto versión 1.0 Gamma (17/oct): https://github.com/gershu-ar/gDroneMapper/blob/main/Peek%20-%20gDroneMapper_1_0_Gamma.jpg
 
 ### ¿Qué hace?<br>
 📍 Extrae la ubicación y orientación del drone desde una imagen aérea (JPG, PNG o DNG) usando ExifTool<br>
@@ -65,7 +65,7 @@ Coded con ❤️ en 🇦🇷 Argentina
 ## 🇺🇸 Drone Heading Mapper (with optional reference point)<br>
 Version 0.3
 
-> Sneak peek at 1.0 Beta: https://github.com/gershu-ar/GershuDroneHeadingMapper/blob/main/Sneak%20peek%20-%201.0%20Beta.jpg
+> Peek at 1.0 Gamme (17/oct): https://github.com/gershu-ar/gDroneMapper/blob/main/Peek%20-%20gDroneMapper_1_0_Gamma.jpg
 
 ### What does it do?<br>
 📍 Extracts drone location and heading from aerial image metadata<br>
