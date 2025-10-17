@@ -6,9 +6,9 @@
 ## 🇦🇷 (1) Mapeador Fotográfico para Drones<br>
 Version 0.3
 
-> Adelanto versión 1.0 Gamma (17/oct): https://github.com/gershu-ar/gDroneMapper/blob/main/Peek%20-%20gDroneMapper_1_0_Gamma.jpg<br>
-> Estoy trabajando para lanzar todo en estos días en forma; no quiero "apurar" el asado :D
-> Live preview del mapa, nueva versión: https://gershu.ar/playground/gDroneMapper_20251017_044114.html
+> Adelanto versión 1.0 Gamma (17/oct): https://github.com/gershu-ar/gDroneMapper/blob/main/docs/Peek%20-%20gDroneMapper_1_0_Gamma.jpg<br>
+> Estoy trabajando para lanzar todo en estos días en forma; no quiero "apurar" el asado :D<br>
+> Live preview del mapa, nueva versión: https://gershu-ar.github.io/gDroneMapper
 
 ### ¿Qué hace?<br>
 📍 Extrae la ubicación y orientación del drone desde una imagen aérea (JPG, PNG o DNG) usando ExifTool<br>
@@ -72,8 +72,13 @@ Coded con ❤️ en 🇦🇷 Argentina
 ## 🇺🇸 (2) Drone Photography Mapper<br>
 Version 0.3
 
-> Peek at 1.0 Gamme (17/oct): https://github.com/gershu-ar/gDroneMapper/blob/main/Peek%20-%20gDroneMapper_1_0_Gamma.jpg<br>
-> New version, live map preview: https://gershu.ar/playground/gDroneMapper_20251017_044114.html
+> Peek at 1.0 Gamma version (17/oct): https://github.com/gershu-ar/gDroneMapper/blob/main/Peek%20-%20gDroneMapper_1_0_Gamma.jpg<br>
+> I'm working on the frontend and installation, don't want to rush the BBQ! :D<br>
+> New version, live map preview: https://gershu-ar.github.io/gDroneMapper
+
+> Peek at 1.0 Gamma version (17/oct): https://github.com/gershu-ar/gDroneMapper/blob/main/docs/Peek%20-%20gDroneMapper_1_0_Gamma.jpg<br>
+> Estoy trabajando para lanzar todo en estos días en forma; no quiero "apurar" el asado :D<br>
+> Live preview del mapa, nueva versión: https://gershu-ar.github.io/gDroneMapper
 
 
 ### What does it do?<br>
