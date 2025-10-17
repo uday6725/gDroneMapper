@@ -2,7 +2,7 @@
 Version 0.3
 
 > Adelanto versión 1.0 Gamma (17/oct): https://github.com/gershu-ar/gDroneMapper/blob/main/Peek%20-%20gDroneMapper_1_0_Gamma.jpg<br>
-> Live preview del mapa, nueva versión: https://gershu.ar/playground/gDroneMapper_20251017_044114.htm
+> Live preview del mapa, nueva versión: https://gershu.ar/playground/gDroneMapper_20251017_044114.html
 
 ### ¿Qué hace?<br>
 📍 Extrae la ubicación y orientación del drone desde una imagen aérea (JPG, PNG o DNG) usando ExifTool<br>
@@ -67,7 +67,8 @@ Coded con ❤️ en 🇦🇷 Argentina
 Version 0.3
 
 > Peek at 1.0 Gamme (17/oct): https://github.com/gershu-ar/gDroneMapper/blob/main/Peek%20-%20gDroneMapper_1_0_Gamma.jpg<br>
-> New version, live map preview: https://gershu.ar/playground/gDroneMapper_20251017_044114.htm
+> New version, live map preview: https://gershu.ar/playground/gDroneMapper_20251017_044114.html
+
 
 ### What does it do?<br>
 📍 Extracts drone location and heading from aerial image metadata<br>
