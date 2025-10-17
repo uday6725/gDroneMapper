@@ -1,7 +1,13 @@
-## 🇦🇷 Mapeador Fotográfico para Drones<br>
+(1) 🇦🇷 Español
+(2) 🇺🇸 English
+
+****************
+
+## 🇦🇷 (1) Mapeador Fotográfico para Drones<br>
 Version 0.3
 
 > Adelanto versión 1.0 Gamma (17/oct): https://github.com/gershu-ar/gDroneMapper/blob/main/Peek%20-%20gDroneMapper_1_0_Gamma.jpg<br>
+> Estoy trabajando para lanzar todo en estos días en forma; no quiero "apurar" el asado :D
 > Live preview del mapa, nueva versión: https://gershu.ar/playground/gDroneMapper_20251017_044114.html
 
 ### ¿Qué hace?<br>
@@ -63,7 +69,7 @@ Coded con ❤️ en 🇦🇷 Argentina
 
 ----
 
-## 🇺🇸 Drone Photography Mapper<br>
+## 🇺🇸 (2) Drone Photography Mapper<br>
 Version 0.3
 
 > Peek at 1.0 Gamme (17/oct): https://github.com/gershu-ar/gDroneMapper/blob/main/Peek%20-%20gDroneMapper_1_0_Gamma.jpg<br>
